@@ -16,3 +16,7 @@
   --clr-white:     #ffffff;
   --ff-heading:    'Orbitron', sans-serif;
   --ff-body:       'Outfit', sans-serif;
+  --radius-sm:     8px;
+  --radius-md:     14px;
+  --radius-lg:     24px;
+  --radius-full:   999px;
