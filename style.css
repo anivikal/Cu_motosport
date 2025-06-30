@@ -20,3 +20,7 @@
   --radius-md:     14px;
   --radius-lg:     24px;
   --radius-full:   999px;
+  --transition:    0.35s cubic-bezier(.4,0,.2,1);
+}
+
+/* ---- Reset ---- */
