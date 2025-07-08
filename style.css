@@ -43,3 +43,9 @@ ul { list-style: none; }
 .section-tag {
   font-family: var(--ff-heading);
   font-size: .72rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  display: flex;
+  align-items: center;
+  gap: 12px;
