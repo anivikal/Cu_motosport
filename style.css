@@ -101,3 +101,6 @@ ul { list-style: none; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .preloader-text {
   font-family: var(--ff-heading);
+  font-size: .8rem;
+  letter-spacing: 6px;
+  color: var(--clr-accent);
