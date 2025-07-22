@@ -104,3 +104,9 @@ ul { list-style: none; }
   font-size: .8rem;
   letter-spacing: 6px;
   color: var(--clr-accent);
+  margin-top: 24px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed; top:0; left:0; width:100%; z-index:1000;
