@@ -124,3 +124,7 @@ ul { list-style: none; }
 }
 .nav-logo {
   font-family: var(--ff-heading);
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: var(--clr-white);
+  display: flex; align-items: center; gap: 10px;
