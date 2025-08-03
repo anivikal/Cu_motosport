@@ -156,3 +156,14 @@ ul { list-style: none; }
   font-size: .88rem;
   border-radius: var(--radius-full);
   transition: transform var(--transition), box-shadow var(--transition);
+}
+.nav-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px var(--clr-accent-glow);
+}
+
+/* Hamburger */
+.hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; z-index:1001; }
+.hamburger span {
+  width:26px; height:2px; background:var(--clr-white);
+  transition: var(--transition);
