@@ -177,3 +177,8 @@ ul { list-style: none; }
   position: relative;
   min-height: 100vh;
   display: flex; align-items: center;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute; inset:0; z-index:0;
+}
