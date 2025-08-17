@@ -207,3 +207,13 @@ ul { list-style: none; }
   color: var(--clr-accent);
   margin-bottom: 24px;
   text-transform: uppercase;
+}
+.hero-badge .dot {
+  width:6px; height:6px; border-radius:50%;
+  background: var(--clr-accent);
+  animation: pulse-dot 1.4s infinite;
+}
+@keyframes pulse-dot {
+  0%,100%{ opacity:1; transform:scale(1); }
+  50%{ opacity:.4; transform:scale(1.6); }
+}
