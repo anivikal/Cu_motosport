@@ -231,3 +231,10 @@ ul { list-style: none; }
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.hero-desc {
+  font-size: 1.12rem;
+  color: var(--clr-text-dim);
+  max-width: 540px;
+  margin-bottom: 36px;
+}
+.hero-actions { display:flex; gap:16px; flex-wrap:wrap; }
