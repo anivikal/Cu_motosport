@@ -244,3 +244,6 @@ ul { list-style: none; }
   background: var(--clr-accent);
   color: var(--clr-bg);
   font-weight: 700;
+  font-size: .95rem;
+  border-radius: var(--radius-full);
+  border: none; cursor: pointer;
