@@ -247,3 +247,13 @@ ul { list-style: none; }
   font-size: .95rem;
   border-radius: var(--radius-full);
   border: none; cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 36px var(--clr-accent-glow);
+}
+.btn-outline {
+  display: inline-flex; align-items: center; gap:10px;
+  padding: 14px 32px;
+  background: transparent;
