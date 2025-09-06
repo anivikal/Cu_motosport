@@ -294,3 +294,8 @@ ul { list-style: none; }
 .about { padding: 120px 0; }
 .about-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.about-image {
