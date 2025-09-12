@@ -316,3 +316,7 @@ ul { list-style: none; }
   border: 1px solid var(--clr-border);
   pointer-events: none;
 }
+.about-text p {
+  color: var(--clr-text-dim);
+  margin-bottom: 24px;
+  font-size: 1.02rem;
