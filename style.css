@@ -320,3 +320,12 @@ ul { list-style: none; }
   color: var(--clr-text-dim);
   margin-bottom: 24px;
   font-size: 1.02rem;
+}
+.about-highlights {
+  display: grid; grid-template-columns: 1fr 1fr; gap:16px;
+  margin-top: 28px;
+}
+.highlight-item {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 16px;
+  background: var(--clr-surface);
