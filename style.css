@@ -344,3 +344,6 @@ ul { list-style: none; }
 }
 .highlight-item h4 {
   font-size: .9rem;
+  font-weight: 600;
+  color: var(--clr-white);
+}
