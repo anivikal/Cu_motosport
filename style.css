@@ -387,3 +387,13 @@ ul { list-style: none; }
   display: flex; align-items:center; gap:20px;
   transition: border-color var(--transition), transform var(--transition);
 }
+.spec-card:hover {
+  border-color: var(--clr-accent);
+  transform: translateX(6px);
+}
+.spec-icon {
+  width: 48px; height:48px; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+  background: rgba(255,107,26,0.1);
+  border-radius: var(--radius-sm);
+  font-size: 1.4rem;
