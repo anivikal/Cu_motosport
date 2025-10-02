@@ -397,3 +397,6 @@ ul { list-style: none; }
   background: rgba(255,107,26,0.1);
   border-radius: var(--radius-sm);
   font-size: 1.4rem;
+}
+.spec-card h4 {
+  font-family: var(--ff-heading);
