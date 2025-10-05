@@ -404,3 +404,8 @@ ul { list-style: none; }
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--clr-text-dim);
+  margin-bottom: 4px;
+}
+.spec-card .spec-value {
+  font-family: var(--ff-heading);
+  font-size: 1.35rem;
