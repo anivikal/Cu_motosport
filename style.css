@@ -419,3 +419,8 @@ ul { list-style: none; }
 }
 
 /* ===== DEPARTMENTS ===== */
+.departments { padding: 120px 0; }
+.departments-header { text-align: center; margin-bottom: 60px; }
+.departments-header .section-subtitle { margin-inline: auto; }
+.dept-grid {
+  display: grid;
