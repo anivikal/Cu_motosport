@@ -424,3 +424,11 @@ ul { list-style: none; }
 .departments-header .section-subtitle { margin-inline: auto; }
 .dept-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 24px;
+}
+.dept-card {
+  padding: 36px 28px;
+  background: var(--clr-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--clr-border);
