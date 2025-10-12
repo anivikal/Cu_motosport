@@ -432,3 +432,9 @@ ul { list-style: none; }
   background: var(--clr-surface);
   border-radius: var(--radius-lg);
   border: 1px solid var(--clr-border);
+  position: relative;
+  overflow: hidden;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.dept-card:hover {
+  border-color: var(--clr-accent);
