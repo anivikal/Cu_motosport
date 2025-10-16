@@ -449,3 +449,8 @@ ul { list-style: none; }
   transform-origin: left;
   transition: transform var(--transition);
 }
+.dept-card:hover::before { transform: scaleX(1); }
+.dept-icon {
+  width:52px; height:52px;
+  display:flex; align-items:center; justify-content:center;
+  background: rgba(255,107,26,0.1);
