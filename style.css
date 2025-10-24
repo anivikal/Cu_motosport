@@ -479,3 +479,10 @@ ul { list-style: none; }
   max-width: 800px;
   margin-inline: auto;
 }
+.timeline::before {
+  content:'';
+  position:absolute; left:50%; top:0; bottom:0;
+  width:2px;
+  background: linear-gradient(180deg, var(--clr-accent), var(--clr-surface-2));
+  transform: translateX(-50%);
+}
