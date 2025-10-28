@@ -496,3 +496,7 @@ ul { list-style: none; }
 .timeline-dot {
   position:absolute; left:50%; top:20px;
   width:14px; height:14px;
+  background: var(--clr-accent);
+  border-radius:50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 20px var(--clr-accent-glow);
