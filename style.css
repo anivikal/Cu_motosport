@@ -512,3 +512,7 @@ ul { list-style: none; }
 .timeline-content:hover { border-color: var(--clr-accent); }
 .timeline-date {
   font-family: var(--ff-heading);
+  font-size: .7rem;
+  letter-spacing: 2px;
+  color: var(--clr-accent);
+  text-transform: uppercase;
