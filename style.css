@@ -516,3 +516,8 @@ ul { list-style: none; }
   letter-spacing: 2px;
   color: var(--clr-accent);
   text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.timeline-content h4 {
+  font-size: 1rem;
+  font-weight: 700;
