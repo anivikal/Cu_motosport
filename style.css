@@ -527,3 +527,11 @@ ul { list-style: none; }
 .timeline-content p {
   font-size: .85rem;
   color: var(--clr-text-dim);
+}
+
+/* ===== SPONSORS ===== */
+.sponsors { padding: 120px 0; }
+.sponsors-header { text-align: center; margin-bottom: 60px; }
+.sponsors-header .section-subtitle { margin-inline:auto; }
+.sponsors-message {
+  text-align: center;
