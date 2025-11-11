@@ -551,3 +551,11 @@ ul { list-style: none; }
 .sponsors-message p {
   color: var(--clr-text-dim);
   font-size: .95rem;
+  margin-bottom: 24px;
+}
+
+/* ===== CONTACT ===== */
+.contact { padding: 120px 0; background: var(--clr-bg-alt); }
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
