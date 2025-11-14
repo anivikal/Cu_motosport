@@ -571,3 +571,7 @@ ul { list-style: none; }
 .contact-info p {
   color: var(--clr-text-dim);
   margin-bottom: 28px;
+}
+.contact-detail {
+  display:flex; align-items:center; gap:14px;
+  margin-bottom: 18px;
