@@ -632,3 +632,7 @@ ul { list-style: none; }
 .form-row { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
 
 /* ===== FOOTER ===== */
+.footer {
+  padding: 60px 0 30px;
+  border-top: 1px solid var(--clr-border);
+}
