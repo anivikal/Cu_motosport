@@ -636,3 +636,7 @@ ul { list-style: none; }
   padding: 60px 0 30px;
   border-top: 1px solid var(--clr-border);
 }
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 40px;
