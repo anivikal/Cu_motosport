@@ -61,3 +61,10 @@ window.addEventListener('load', revealOnScroll);
 // ---- Counter animation ----
 function animateCounter(elementId, target, duration = 2000, suffix = '') {
   const el = document.getElementById(elementId);
+  if (!el) return;
+  let start = 0;
+  const startTime = performance.now();
+
+  function update(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
