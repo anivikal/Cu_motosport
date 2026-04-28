@@ -73,3 +73,7 @@ function animateCounter(elementId, target, duration = 2000, suffix = '') {
     const current = Math.round(eased * target);
     el.textContent = current.toLocaleString() + suffix;
     if (progress < 1) requestAnimationFrame(update);
+  }
+  requestAnimationFrame(update);
+}
+
