@@ -90,3 +90,7 @@ const heroObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.3 });
 const heroSection = document.getElementById('hero');
 if (heroSection) heroObserver.observe(heroSection);
+
+// ---- Particle background ----
+const canvas = document.getElementById('particles-canvas');
+const ctx = canvas.getContext('2d');
