@@ -122,3 +122,7 @@ class Particle {
     this.opacity = Math.random() * 0.4 + 0.1;
   }
   update() {
+    this.x += this.speedX;
+    this.y += this.speedY;
+
+    // Subtle mouse interaction
