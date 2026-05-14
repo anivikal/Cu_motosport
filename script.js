@@ -126,3 +126,8 @@ class Particle {
     this.y += this.speedY;
 
     // Subtle mouse interaction
+    if (mouse.x !== null) {
+      const dx = this.x - mouse.x;
+      const dy = this.y - mouse.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < 120) {
