@@ -139,3 +139,14 @@ class Particle {
 
     if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
       this.reset();
+    }
+  }
+  draw() {
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(255, 107, 26, ${this.opacity})`;
+    ctx.fill();
+  }
+}
+
+function initParticles() {
