@@ -178,3 +178,8 @@ function connectParticles() {
   }
 }
 
+function animateParticles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  particles.forEach(p => {
+    p.update();
+    p.draw();
