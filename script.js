@@ -195,3 +195,11 @@ function handleSubmit(e) {
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const subject = document.getElementById('subject').value;
+  const message = document.getElementById('message').value;
+
+  // Build mailto link
+  const mailtoLink = `mailto:anirudhvikal2005@gmail.com?subject=${encodeURIComponent(subject || 'Contact from ' + name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
+  
+  window.location.href = mailtoLink;
+
+  // Show feedback
