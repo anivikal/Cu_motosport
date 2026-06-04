@@ -203,3 +203,7 @@ function handleSubmit(e) {
   window.location.href = mailtoLink;
 
   // Show feedback
+  const btn = document.getElementById('submitBtn');
+  btn.innerHTML = '<i class="fas fa-check"></i> Opening Mail Client...';
+  btn.style.background = '#22c55e';
+  
