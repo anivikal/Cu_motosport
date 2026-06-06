@@ -207,3 +207,7 @@ function handleSubmit(e) {
   btn.innerHTML = '<i class="fas fa-check"></i> Opening Mail Client...';
   btn.style.background = '#22c55e';
   
+  setTimeout(() => {
+    btn.innerHTML = 'Send Message <i class="fas fa-paper-plane"></i>';
+    btn.style.background = '';
+    document.getElementById('contactForm').reset();
